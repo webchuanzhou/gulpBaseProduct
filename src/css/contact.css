@@ -1,0 +1,340 @@
+/*
+ * index.css
+ * Copyright (C) 2017 disoul
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+ .contact-page {
+    border-top: 60px solid #001430;
+    background: #f9fafb;
+  
+    -ms-flex: 1;
+  
+        flex: 1;
+  }
+  
+  .contact-container {
+    max-width: 1200px;
+    margin: auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+  }
+  
+  .contact-page__left {
+    width: 880px;
+  }
+  
+  .contact-page__right {
+    width: 300px;
+  }
+  
+  .contact-page__left__introduction {
+    width: 100%;
+    height: 165px;
+    background: #fff;
+    padding: 20px;
+  }
+  
+  .contact-page__left__introduction .introduction__title {
+    font-size: 24px;
+    color: #62626B;
+    line-height: 25px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-page__left__introduction .introduction__content {
+    font-size: 14px;
+    color: #62626B;
+    width: 100%;
+    word-wrap: break-word;
+    line-height: 21px;
+  }
+  
+  .contact-topbg {
+    width: 100%;
+    height: 136px;
+    background-image: url('../images/topbg.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 40px;
+    margin-bottom: 20px;
+  }
+  .contact-topbg__title {
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-topbg__content {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  
+  .contact-page__left__form {
+    width: 100%;
+    height: 424px;
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+  }
+  
+  .contact-info {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  
+  .contact-info__img {
+    width:300px;
+  }
+  
+  .contact-info__main {
+    background: #FFFFFF;
+    padding: 20px 10px;
+  }
+  
+  .contact-info__main__item {
+    font-size: 12px;
+    color: #4B4B4B;
+    line-height: 18px;
+    margin-bottom: 14px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  
+  .contact-info__main__item i {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    color: #c7c7cc;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* anniu */
+  /*
+ * index.css
+ * Copyright (C) 2017 disoul
+ *
+ * Distributed under terms of the MIT license.
+ */
+.input-item {
+    width: 430px;
+    height: 64px;
+    margin-top: 10px
+  }
+  .input-item.textarea {
+    height: 137px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .input-item.textarea textarea {
+    padding: 16px 11px;
+    resize: none;
+    -ms-flex: 1;
+        flex: 1
+  }
+  
+  .input-item__label {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #889099;
+    letter-spacing: 0px;
+    margin-bottom: 10px
+  }
+  
+  .input-item__label span {
+    font-size: 12px;
+    color: #FF1F1F;
+    margin-left: 2px
+  }
+  
+  .input-item__input {
+    background: #FFFFFF;
+    outline: none;
+    transition: border ease 0.4s;
+    border: 1px solid #d9d9d9;
+    height: 36px;
+    width: 410px;
+    padding-left: 11px
+  }
+  
+  .input-item__input:hover, .input-item__input:focus {
+    border: 1px solid #00c6ff
+  }
+
+  
+
+  /*
+ * index.css
+ * Copyright (C) 2017 disoul
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+.contact-form {
+    position: relative;
+  }
+  
+  .contact-form .form__title {
+    font-size: 24px;
+    color: #62626B;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form .form__content {
+    font-size: 14px;
+    color: #62626B;
+    line-height: 21px
+  }
+  
+  .contact-form .form__content.error {
+    color: #ff1f1f;
+  }
+  
+  .contact-form .form__thanks {
+    font-size: 32px;
+    color: #62626B;
+    line-height: 33px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form .form {
+    margin-top: 30px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 230px;
+    margin-bottom: 17px;
+  }
+  
+  .contact-form .form__finish {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    opacity: 0;
+    transition: all ease 0.4s;
+    display: none
+  }
+  
+  .contact-form .form__finish.show {
+    opacity: 1;
+    display: block;
+  }
+  
+  .contact-form .form__finish__form {
+    margin-top: 30px;
+  }
+  
+  .contact-form .form__finish__form p {
+    font-size: 12px;
+    color: #889099;
+    margin-bottom: 7px;
+  }
+  
+  .contact-form .form__finish__form span {
+    font-size: 12px;
+    color: #62626B;
+    margin-left: 20px;
+  }
+  
+  .contact-form .form__mainform {
+    opacity: 0;
+    display: none;
+    pointer-events: none
+  }
+  
+  .contact-form .form__mainform.show {
+    opacity: 1;
+    display: block;
+    pointer-events: auto;
+  }
+  
+  .contact-form .enter {
+    margin: auto;
+    padding: 10px 110px;
+  }
+  
+
+
+
+
+
+  /*
+ * index.css
+ * Copyright (C) 2017 disoul
+ *
+ * Distributed under terms of the MIT license.
+ */
+.button.primary, .button.secondary:hover {
+    background: #4E89E9;
+    color: #fff;
+  }
+  
+  .button.secondary {
+    color: #4E89E9;
+    background: transparent;
+  }
+  
+  .button {
+    border: 0;
+    border-radius: 2px;
+    outline: none;
+    padding: 10px 35px;
+    border: 1px solid #4E89E9;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+    display: -ms-flexbox;
+    display: flex;
+    box-shadow: 0px 2px 8px 0px rgba(75,110,176,0.32), 0px 2px 4px 0px rgba(0,32,69,0.24)
+  }
+  
+  .button.primary:hover {
+    border: 1px solid #2aa5f9;
+    background: #2aa5f9;
+  }
+  
+  /* .button.disable {
+    background: rgba(77,137,233,0.40);
+    border: rgba(77, 137, 233, 0.4);
+    cursor: not-allowed;
+  } */
+  
+  .button.disable:hover {
+    background: rgba(77,137,233,0.40) !important;
+    border: rgba(77, 137, 233, 0.4) !important;
+  }
+  

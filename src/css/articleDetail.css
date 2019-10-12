@@ -1,0 +1,134 @@
+.detail-page{
+    border-top: 60px solid #001430;
+    background: #f9fafb;
+}
+.detail-page .content{
+    margin: 0 auto;
+    width: 1200px;
+    min-height: 600px;
+}
+.singleblog-post-content{
+    padding: 70px 0 20px;
+    overflow: hidden;
+}
+.singleblog-post-content .title-data {
+    padding-bottom: 15px;
+}
+.title-data h3{
+    font-size: 24px;
+}
+.title-data ul {
+    margin-top:20px;
+    padding: 0;
+}
+.title-data ul li {
+    display: inline;
+    padding: 0 15px 0 0;
+}
+.title-data ul li::before {
+    content: '';
+    height: 5px;
+    width: 5px;
+    background: #AC403C;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 3px 11px 3px 0;
+}
+.content-text{
+    padding: 15px 0;
+}
+
+.header-container {
+    background: #001430;
+}
+.mainTop90{
+    padding: 90px 0 90px;
+    width:100%;
+    background:#fff;
+}
+.content{
+    width: 1200px;
+    margin: 17px auto 0;
+    min-width: 1200px;
+}
+.blog-post-content{
+    padding: 30px 0;
+    overflow: hidden;
+}
+.blog-post-content .title-data{
+    padding-bottom: 15px;
+}
+.blog-post-content  .title-data ul{
+    margin-top: 10px;
+    padding: 0;
+}
+.Blog-link a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #337ab7;
+    display: inline-block;
+    margin: 10px 0;
+}
+/* fenye */
+.quo-bd-fot {
+    display: flex;
+    justify-content: center;
+    padding: 22px 0 33px;
+    background: #fff;
+    font-size: 13px;
+    line-height: 30px;
+    color: #9B9B9B;
+    text-align: center;
+}
+
+.quo-bd-fot p {
+    margin-left: 12px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination span {
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
+    color: #9B9B9B;
+    text-align: center;
+    line-height: 28px;
+    border: 1px solid #E1E0E1;
+    margin: 0 2px;
+    box-sizing: border-box;
+    transition: all .3s ease;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pagination span:hover {
+    color: #ff9d11;
+    border-color: #ff9d11;
+}
+
+.pagination span.show {
+    color: #fff;
+    border-color: #ff9d11;
+    background-color: #ff9d11;
+}
+
+.pagination-prev {
+    background-image: url(../images/quo-pagination-prev.svg);
+}
+
+.pagination-prev:hover {
+    background-image: url(../images/quo-pagination-prev-h.svg);
+}
+
+.pagination-next {
+    background-image: url(../images/quo-pagination-next.svg);
+}
+
+.pagination-next:hover {
+    background-image: url(../images/quo-pagination-next-h.svg);
+}

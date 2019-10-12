@@ -1,0 +1,575 @@
+.rubal_container{
+	background-color: #fff;
+    padding: 60px 0px 0px 0px;
+}
+.rubal_container .container{
+	width: 1200px;
+	margin:0 auto;
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.rubal_container .rubal_side{
+	width: 220px;
+	min-width: 220px;
+}
+.rubal_container .rubal_side dl dt{
+	border-bottom: 1px solid #eee;
+	line-height: 60px;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+.rubal_container .rubal_side dl dt.cur{
+	border-bottom: 1px solid #3A9BFE;
+}
+.rubal_container .rubal_side dl dt:hover{
+	border-bottom: 1px solid #3A9BFE;
+}
+.rubal_container .rubal_side dl dd{
+	line-height: 40px;
+	font-size: 14px;
+}
+/* .rubal_container .rubal_side dl dd.cur a{
+	display: block;
+	border-bottom: 2px solid #3A9BFE;
+} */
+.rubal_container .rubal_side dl dd a{
+	display: block;
+	color: #000;
+	line-height: 40px;
+	border-bottom: 2px solid #fff;
+	cursor: context-menu;
+}
+/* .rubal_container .rubal_side dl dd a:hover{
+	display: block;
+	border-bottom: 2px solid #3A9BFE;
+} */
+.rubal_container .rubal_content{
+	-webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border-left:1px solid #eee;
+    padding-bottom: 150px;
+}
+.rubal_container .rubal_content .rubal_c_banner.intelligentapm_banner{
+	height: 440px;
+	background: #E2F0FF url(../images/product/banner_bg.png) no-repeat 355px 0px;
+}
+.rubal_container .rubal_content .rubal_c_banner.rubal_poleline_banner{
+	height: 440px;
+	/* background: #E2F0FF url(../images/product/banner_bg_poline.png) no-repeat 600px 80px; */
+	background:#E2F0FF  url(../images/product/banner_bg_php.png) no-repeat 600px 80px;;
+	background-size: 370px auto;
+}
+.rubal_container .rubal_content .rubal_c_banner.rubal_poleline_banner_php{
+	height: 440px;
+	background:#E2F0FF  url(../images/product/banner_bg_php_java.png) no-repeat 600px 80px;;
+	background-size: 370px auto;
+}
+.rubal_container .rubal_content .rubal_c_banner.rubal_poleline_banner_plan{
+	height: 440px;
+	background:#E2F0FF  url(../images/product/banner_bg_php_plan.png) no-repeat 560px 80px;;
+	background-size: 370px auto;
+}
+.rubal_container .rubal_content .rubal_c_banner.rubal_poleline_banner_new{
+	height: 440px;
+	background:#E2F0FF  url(../images/product/banner_bg_news.png) no-repeat 600px 80px;;
+	background-size: 370px auto;
+}
+.rubal_container .rubal_content .rubal_c_banner.rubal_poleline_banner_hd{
+	height: 440px;
+	background:#E2F0FF  url(../images/product/banner_bg_hd.png) no-repeat 600px 80px;
+	background-size: 370px auto;
+}
+.rubal_container .rubal_content .rubal_c_banner.rubal_poleline_banner_product{
+	/* height: 440px; */
+	/* background:#E2F0FF  url(../images/product/banner_bg_hd.png) no-repeat 600px 80px; */
+	/* background-size: 370px auto; */
+}
+.rubal_container .rubal_content .rubal_c_banner .banner_lars{
+	padding:100px 0px 0px 60px;
+	/* width: 595px; */
+	width: 460px;
+}
+.rubal_container .rubal_content .rubal_c_banner .banner_lars h1{
+	/* font-size: 46px; */
+	font-size: 32px;
+	margin-bottom: 25px;
+}
+.rubal_container .rubal_content .rubal_c_banner .banner_lars p{
+	font-size: 16px;
+	line-height: 25px;
+}
+.rubal_container .rubal_content .rubal_c_banner .banner_lars a{
+	width: 180px;
+	height: 42px;
+	background: #1C6AEB;
+	color: #fff;
+	display: inline-block;
+	line-height: 42px;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 14px;
+	margin-right: 20px;
+}
+.rubal_container .rubal_content .rubal_c_ball{
+	height: 60px;
+}
+.rubal_container .rubal_content .rubal_c_ball ul{
+	overflow: hidden;
+	position: relative;
+	background: #fff;
+	width: 980px;
+	z-index: 99;
+	/* padding-right: 200px; */
+    height: 62px;
+}
+.rubal_container .rubal_content .rubal_c_ball ul li{
+	float: left;
+	width: 195px;
+	text-align: center;
+	list-style:none;
+}
+.rubal_container .rubal_content .rubal_c_ball ul li a{
+	display: block;
+	color: #000;
+	line-height: 60px;
+	font-size: 16px;
+	background: #fff;
+}
+.rubal_container .rubal_content .rubal_c_ball ul li.cur{
+	border-bottom: 2px solid #2B6DE3;
+}
+.rubal_container .rubal_content .rubal_c_model{
+	padding-left: 60px;
+}
+.rubal_container .rubal_content .rubal_c_model h2{
+	font-size: 24px;
+	line-height: 100px;
+	margin-top: 40px;
+}
+.rubal_container .rubal_content .rubal_c_model ul{
+	/* overflow: hidden; */
+	margin-left: -120px;
+}
+.rubal_container .rubal_content .rubal_c_model ul:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.rubal_container .rubal_content .rubal_c_model .slick{
+	width: 920px;
+	/* overflow: hidden; */
+	/* height: 270px; */
+	position: relative;
+}
+.rubal_container .rubal_content .rubal_c_model .slick .dots{
+	position: absolute;
+	bottom: 0px;
+	width: 100px;
+	left:50%;
+	margin-left: -50px;
+}
+.rubal_container .rubal_content .rubal_c_model .slick .dots span{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background: #ddd;
+	border-radius: 50%;
+	margin:0px 3px;
+}
+.rubal_container .rubal_content .rubal_c_model .slick .dots span.cur{
+	background: #1C6AEB;
+}
+.rubal_container .rubal_content .rubal_c_model .slick ul{
+	/* width: 10000px;
+	position: absolute;
+	height: 270px; */
+}
+.rubal_container .rubal_content .rubal_c_model .slick ul li{
+	float: left;
+	width: 200px;
+	/* height: 270px; */
+	list-style:none;
+	text-align: center;
+	margin-left: 120px;
+}
+.rubal_container .rubal_content .rubal_c_model .slick ul li:nth-child(4n){
+	content: " ";
+    display: block;
+	clear: both;
+}
+.rubal_container .rubal_content .rubal_c_model .slick ul li i{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+}
+.rubal_container .rubal_content .rubal_c_model .slick ul li i.as1{
+	background: url(../images/product/as1.png) no-repeat;
+}
+.rubal_container .rubal_content .rubal_c_model .slick ul li i.as2{
+	background: url(../images/product/as2.png) no-repeat;
+}
+.rubal_container .rubal_content .rubal_c_model .slick ul li i.as3{
+	background: url(../images/product/as3.png) no-repeat;
+}
+.rubal_container .rubal_content .rubal_c_model .slick ul li i.as4{
+	background: url(../images/product/as4.png) no-repeat;
+}
+.rubal_container .rubal_content .rubal_c_model .slick ul li i.poleline_ico_01{
+	background: url(../images/product/poleline_ico_01.png) no-repeat;
+	height: 80px;
+}
+.rubal_container .rubal_content .rubal_c_model .slick ul li i.poleline_ico_02{
+	background: url(../images/product/poleline_ico_02.png) no-repeat;
+	height: 80px;
+}
+.rubal_container .rubal_content .rubal_c_model .slick ul li i.poleline_ico_03{
+	background: url(../images/product/poleline_ico_03.png) no-repeat;
+	height: 80px;
+}
+.rubal_container .rubal_content .rubal_c_model .slick ul li i.poleline_ico_04{
+	background: url(../images/product/poleline_ico_04.png) no-repeat;
+	width: 85px;
+	height: 80px;
+}
+.rubal_container .rubal_content .rubal_c_model .slick ul li i.poleline_ico_05{
+	background: url(../images/product/spe5.png) no-repeat;
+	width: 80px;
+	height: 80px;
+}
+.rubal_container .rubal_content .rubal_c_model .slick ul li i.poleline_ico_06{
+	background: url(../images/product/spe1.png) no-repeat;
+	width: 80px;
+	height: 80px;
+}
+
+.rubal_container .rubal_content .rubal_c_model .slick ul li i.myyou_ico_01{
+	background: url(../images/product/myyou_ico_01.png) no-repeat;
+	height: 80px;
+}
+.rubal_container .rubal_content .rubal_c_model .slick ul li i.myyou_ico_02{
+	background: url(../images/product/myyou_ico_02.png) no-repeat;
+	height: 80px;
+}
+.rubal_container .rubal_content .rubal_c_model .slick ul li i.myyou_ico_03{
+	background: url(../images/product/myyou_ico_03.png) no-repeat;
+	height: 80px;
+}
+.rubal_container .rubal_content .rubal_c_model .slick ul li i.myyou_ico_04{
+	background: url(../images/product/myyou_ico_04.png) no-repeat;
+	width: 85px;
+	height: 80px;
+}
+.rubal_container .rubal_content .rubal_c_model .slick ul li i.myyou_ico_06{
+	background: url(../images/product/myyou_ico_05.png) no-repeat;
+	width: 80px;
+	height: 80px;
+}
+
+
+.rubal_container .rubal_content .rubal_c_model .slick ul li h3{
+	font-size: 18px;
+	padding: 20px 0px;
+    line-height: 25px;
+}
+.rubal_container .rubal_content .rubal_c_model .slick ul li p{
+	line-height: 25px;
+	color: #777;
+	font-size: 13px;
+}
+.rubal_container .rubal_content .rubal_c_model .content_s1_bg{
+	background: url(../images/product/s1.png) no-repeat;
+	width: 650px;
+	height: 425px;
+	margin-left: 80px;
+}
+.rubal_container .rubal_content .rubal_c_model .content_s2_bg{
+	background: url(../images/product/s2.png) no-repeat;
+	width: 815px;
+	height: 555px;
+	/* margin-left: 0px; */
+	margin:auto;
+	background-size: 100%;
+}
+.rubal_container .rubal_content .rubal_c_model .content_s2_newsGN{
+	background: url(../images/product/s2_newsGN.png) no-repeat;
+	width: 815px;
+	height: 555px;
+	/* margin-left: 0px; */
+	margin:auto;
+	background-size: 100%;
+}
+.rubal_container .rubal_content .rubal_c_model .content_s2_bidai{
+	background: url(../images/product/s2_bidai.png) no-repeat;
+	width: 815px;
+	height: 440px;
+	/* margin-left: 0px; */
+	margin:auto;
+	background-size: 100%;
+}
+.rubal_container .rubal_content .rubal_c_model .content_s2_Hdmoney{
+	background: url(../images/product/s2_Hdmoney.png) no-repeat;
+	width: 815px;
+	height: 555px;
+	/* margin-left: 0px; */
+	margin:auto;
+	background-size: 100%;
+}
+.rubal_container .rubal_content .rubal_c_model .content_s2_bg_java{
+	background: url(../images/product/s2_java.png) no-repeat;
+	width: 815px;
+	height: 555px;
+	/* margin-left: 0px; */
+	margin:auto;
+	background-size: 100%;
+}
+.rubal_container .rubal_content .rubal_c_model .content_s3_bg{
+	background: url(../images/product/s3.png) no-repeat;
+	width: 815px;
+	height: 555px;
+	/* margin-left: 0px; */
+	margin:auto;
+	background-size: 100%;
+}
+.rubal_container .rubal_content .rubal_c_model .content_s3_bg_hexin{
+	background: url(../images/product/hdkeyJj.png) no-repeat;
+	width: 815px;
+	height: 555px;
+	/* margin-left: 0px; */
+	margin:auto;
+	background-size: 100%;
+	box-shadow: 3px 3px 13px 0 #e2e2e2;
+}
+.rubal_container .rubal_content .rubal_c_model .scene_item{
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 35px;
+}
+.rubal_container .rubal_content .rubal_c_model .scene_item div{
+	font-size: 20px;
+	line-height: 30px;
+	height: 30px;
+}
+.rubal_container .rubal_content .rubal_c_model .scene_item div i{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 25px;
+}
+.rubal_container .rubal_content .rubal_c_model .scene_item div i.d1{
+	background: url(../images/product/d1.png) no-repeat;
+}
+.rubal_container .rubal_content .rubal_c_model .scene_item div i.d2{
+	background: url(../images/product/d2.png) no-repeat;
+}
+.rubal_container .rubal_content .rubal_c_model .scene_item div i.d3{
+	background: url(../images/product/d3.png) no-repeat;
+}
+.rubal_container .rubal_content .rubal_c_model .scene_item div i.d4{
+	background: url(../images/product/d4.png) no-repeat;
+}
+.rubal_container .rubal_content .rubal_c_model .scene_item div i.poleline_d_01{
+	background: url(../images/product/poleline_d_01.png) no-repeat;
+}
+.rubal_container .rubal_content .rubal_c_model .scene_item div i.poleline_d_02{
+	background: url(../images/product/poleline_d_02.png) no-repeat;
+}
+.rubal_container .rubal_content .rubal_c_model .scene_item div i.poleline_d_03{
+	background: url(../images/product/poleline_d_03.png) no-repeat;
+}
+.rubal_container .rubal_content .rubal_c_model .scene_item div i.poleline_d_04{
+	background: url(../images/product/poleline_d_04.png) no-repeat;
+}
+.rubal_container .rubal_content .rubal_c_model .scene_item p{
+	font-size: 14px;
+	line-height: 30px;
+	color: #666;
+	padding-top: 10px;
+}
+.rubal_container .rubal_content .help_dom p{
+	line-height: 40px;
+}
+.rubal_container .rubal_content .help_dom a{
+	color: #1C6AEB;
+	font-size: 14px;
+}
+.rubal_container .rubal_content .help_dom a:hover{
+	text-decoration:underline;
+}
+.nf_footer{
+	background: #000C1E;
+    text-align: center;
+    font-size: 14px;
+    color: #B6C0CC;
+    padding-top: 30px;
+    min-height: 200px;
+}
+.nf_footer a {
+    color: #B6C0CC;
+    font-size: 14px;
+}
+/*新版相关样式*/
+.rubal-common-banner {
+	height: 440px;
+}
+.rubal-common-banner.cont-banner {
+	background: #E2F0FF url(../images/titanium-contract/banner.png) no-repeat 400px 0px;
+	background-size: auto 100%;
+}
+.rubal-common-banner.cert-banner {
+	background: #E2F0FF url(../images/titanium-certificate/banner.png) no-repeat 400px -60px;
+	background-size: auto 120%;
+}
+.rubal-common-banner.tank-banner {
+	background: #E2F0FF url(../images/titanium-empty-tank/banner.png) no-repeat 430px 25px;
+}
+
+/*产品页面 特性部分 icon*/
+.rubal-special-icon {
+	height: 70px;
+}
+.rubal-special-icon.spec-icon1 {
+	background: url(../images/spec-icons/spe1.png) no-repeat;
+}
+.rubal-special-icon.spec-icon2 {
+	background: url(../images/spec-icons/spe2.png) no-repeat;
+}
+.rubal-special-icon.spec-icon3 {
+	background: url(../images/spec-icons/spe3.png) no-repeat;
+}
+.rubal-special-icon.spec-icon4 {
+	background: url(../images/spec-icons/spe4.png) no-repeat;
+}
+.rubal-special-icon.spec-icon5 {
+	background: url(../images/spec-icons/spe5.png) no-repeat;
+}
+.rubal-special-icon.spec-icon6 {
+	background: url(../images/spec-icons/spe6.png) no-repeat;
+}
+.rubal-special-icon.spec-icon7 {
+	background: url(../images/spec-icons/spe7.png) no-repeat;
+}
+.rubal-special-icon.spec-icon8 {
+	background: url(../images/spec-icons/spe8.png) no-repeat;
+}
+.rubal-special-icon.spec-icon9{
+	background: url(../images/spec-icons/spe9.png) no-repeat;
+}
+.rubal-special-icon.spec-icon10{
+	background: url(../images/spec-icons/spe10.png) no-repeat;
+}
+.rubal-special-icon.spec-icon11{
+	background: url(../images/spec-icons/spe11.png) no-repeat;
+}
+.rubal-special-icon.spec-icon12{
+	background: url(../images/spec-icons/spe12.png) no-repeat;
+}
+
+.rubal-common-func {
+	width: 815px;
+	height: 380px;
+	margin-top: 20px;
+}
+.rubal-common-func.cont-func {
+	background: url(../images/titanium-contract/func.png) no-repeat;
+	background-size: 100%;
+}
+.rubal-common-func.cert-func {
+	background: url(../images/titanium-certificate/func.png) no-repeat;
+	background-size: 100% auto;
+}
+.rubal-common-func.tank-func {
+	height: 573px;
+	background: url(../images/titanium-empty-tank/func.png) no-repeat;
+	background-size: 100% auto;
+}
+
+/*产品页面 功能部分icon*/
+.rubal-apply-icon {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 25px;
+}
+.rubal-apply-icon.apply-icon1 {
+	background: url(../images/apply-icons/use1.png) no-repeat;
+}
+.rubal-apply-icon.apply-icon2 {
+	background: url(../images/apply-icons/use2.png) no-repeat;
+}
+.rubal-apply-icon.apply-icon3{
+	background: url(../images/apply-icons/use3.png) no-repeat;
+}
+.rubal-apply-icon.apply-icon4 {
+	background: url(../images/apply-icons/use4.png) no-repeat;
+}
+.rubal-apply-icon.apply-icon5 {
+	background: url(../images/apply-icons/use5.png) no-repeat;
+}
+.rubal-apply-icon.apply-icon6 {
+	background: url(../images/apply-icons/use6.png) no-repeat;
+}
+.rubal-apply-icon.apply-icon7 {
+	background: url(../images/apply-icons/use7.png) no-repeat;
+}
+.rubal-apply-icon.apply-icon8 {
+	background: url(../images/apply-icons/use8.png) no-repeat;
+}
+.rubal-apply-icon.apply-icon9 {
+	background: url(../images/apply-icons/use9.png) no-repeat;
+}
+.rubal-apply-icon.apply-icon10 {
+	background: url(../images/apply-icons/use10.png) no-repeat;
+}
+.rubal-apply-icon.apply-icon11 {
+	background: url(../images/apply-icons/use11.png) no-repeat;
+}
+.rubal-apply-icon.apply-icon12 {
+	background: url(../images/apply-icons/use12.png) no-repeat;
+}
+.rubal-apply-icon.apply-icon13 {
+	background: url(../images/apply-icons/use13.png) no-repeat;
+}
+.rubal-apply-icon.apply-icon14 {
+	background: url(../images/apply-icons/use14.png) no-repeat;
+}
+.rubal-apply-icon.apply-icon15 {
+	background: url(../images/apply-icons/use15.png) no-repeat;
+}
+.rubal-apply-icon.apply-icon16 {
+	background: url(../images/apply-icons/use16.png) no-repeat;
+}
+.rubal-apply-icon.apply-icon17 {
+	background: url(../images/apply-icons/use17.png) no-repeat;
+}
+.rubal-apply-icon.apply-icon18 {
+	background: url(../images/apply-icons/use18.png) no-repeat;
+}
+.rubal-apply-icon.apply-icon19 {
+	background: url(../images/apply-icons/use19.png) no-repeat;
+}
+.rubal-apply-icon.apply-icon20 {
+	background: url(../images/apply-icons/use20.png) no-repeat;
+}
+
+.no-scroll-point {
+	height: 240px !important;
+}
+.no-scroll-point li {
+	height: 240px !important;
+}
+.header-container {
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background-color: #001430;
+}

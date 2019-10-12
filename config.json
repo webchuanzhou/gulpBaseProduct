@@ -1,0 +1,14 @@
+{
+    "development": {
+      "apiUrl": "3"
+    },
+    "production": {
+      "apiUrl": "https://192.168.10.195:9070/api/"
+    },
+    "production2": {
+      "apiUrl": "2"
+    },
+    "build":{
+      "apiUrl": "1"
+    }
+  }

@@ -1,0 +1,238 @@
+/* saas云 */
+.saas_slider_wrap{
+    height: 794px;
+    background: url(../images/home/slide_01.png) no-repeat center center ;
+}
+ .saas_slider_wrap .box {
+    width: 100%;
+    height: 794px;
+    position: relative;
+}
+.box_img ul li .saas_banner_bg_01{width: 100%;height: 794px;background: url(../images/saas/slide_01.png) no-repeat center center ;}
+.saas_yun,.saas_service,.saas_Tes,.saas_Yous{
+    text-align: center;
+    width: 1200px;
+    margin:120px auto 0;
+}
+.title_box{
+    position: relative;
+    
+}
+.saas_yun_outtitle{
+    position: absolute;
+    z-index: 1;
+    font-size:48px;
+    font-weight:400;
+    color:rgba(26,27,84,1);
+    line-height:24px;
+    top:-25px;
+    width: 100%;
+    font-weight: 600;
+}
+.saas_yun_title{
+    font-size:28px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:24px;
+    position: absolute;
+    z-index: 2;
+    width: 100%;        
+}
+.saas_yun_line{
+    height: 100px;
+    background: url(../images/saas/sass_line.png) no-repeat center bottom ;
+}
+.saas_yun_jj{
+    font-size:16px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:30px;                            
+}
+.saas_service_box{
+    flex-wrap: wrap;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: flex-start;
+    width: 1200px;
+    height: 654px;
+}
+.saas_service_box .item{
+    width:288px;
+    height:320px;
+    background:rgba(38,37,104,1);
+    border-radius:6px;
+    text-align: left;
+    padding:38.5px;
+    box-sizing: border-box;
+    margin:0 16px 14px 0;
+}
+.saas_service_box .item:nth-child(4n){
+    margin:0 0 14px 0 !important;
+}
+.saas_service_box .item .item-title{
+    font-size:20px;
+    font-weight:400;
+    color:rgba(235,236,254,1);
+    line-height:24px;
+    padding:10px 0;
+}
+.saas_service_box .item .item-inner{
+    font-size:16px;
+    font-weight:400;
+    color:rgba(102,102,162,1);
+    line-height:24px;
+}
+.saas_service_after{
+    background:url('../images/saas/itemAfter.png') no-repeat center center;
+    height: 290px;
+}
+.saas_service_after .saas_service_wz{
+    margin-left:548px;
+    padding:52px;
+    text-align: left;
+}
+.saas_service_after .saas_service_wz .item-title{
+    font-size:20px;
+    font-weight:400;
+    color:rgba(235,236,254,1);
+    line-height:24px;
+    padding:10px 0;
+}
+.saas_service_after .saas_service_wz .item-inner{
+    font-size:16px;
+    font-weight:400;
+    color:rgba(102,102,162,1);
+    line-height:24px;
+}
+.saas_yun_box{
+    width:940px;
+    height:70px;
+    background:linear-gradient(90deg,rgba(65,104,200,1),rgba(93,186,198,1));
+    border-radius:18px 18px 0px 0px;
+    margin: 0 auto;
+}
+.saas_yun_box .saas_yun_inner{
+    font-size:28px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:70px;
+}
+.saas_yun_ysjs{
+    width:1200px;
+    height:830px;
+    background:rgba(16,19,43,1);
+    border-radius:20px;
+    padding:35px 46px 55px 49px;
+    box-sizing: border-box;
+}
+.ysjs_item{
+    text-align: left;
+}
+.ysjs_item_title{
+    color:#fff;
+    padding: 5px 0 5px 45px;
+    background:url('../images/saas/ys_right.png') no-repeat center left;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top:10px;
+}
+.ysjs_item_title2{
+    color:#fff;
+    padding: 5px 0 5px 45px;
+    background:url('../images/saas/ys_right2.png') no-repeat center left;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top:10px;
+    padding: 5px 0 5px 35px;
+}
+.ysjs_item_title3{
+    color:#fff;
+    padding: 5px 0 5px 45px;
+    background:url('../images/saas/ys_right3.png') no-repeat center left;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top:10px;
+    padding: 5px 0 5px 35px;
+}
+.ysjs_item div{
+    margin-top:20px;
+}
+.ysjs_item_inner{
+    color:#fff;
+    line-height: 26px;
+    margin-top:10px;
+}
+
+.saas_Tes_jes{
+    width: 1200px;
+    background:url('../images/saas/tesexian.png') no-repeat 524px 0;
+    flex-wrap: wrap;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: flex-start;
+}
+.saas_Tes_jes_item{
+    position: relative;
+    width: 600px;
+    height: 300px;
+}
+.saas_Tes_jes_item:nth-child(2n){
+    left:90px;
+    width: 510px !important;
+}
+.saas_Tes_jes_item_box{
+    width: 400px;
+    height: 270px;
+    background:url('../images/saas/box.png') no-repeat center center;
+    position: absolute;
+    z-index: 1;
+    box-sizing: border-box;
+    left:55px;
+    top:0px;
+    transition: all .3s linear;
+}
+.saas_Tes_jes_item_boxInner{
+    width: 510px;
+    height: 240px;
+    padding: 40px 39px 0;
+    position: absolute;
+    z-index: 2;
+    background:rgba(16,19,43,1);
+    border-radius:20px;
+    top:30px;
+    box-sizing: border-box;
+    transition: all .3s linear;
+}
+.saas_Tes_jes_item_boxInner p{
+    font-weight:400;
+    font-size:20px;
+    color:rgba(255,255,255,1);
+    line-height:24px;
+}
+.saas_Tes_jes_item_boxInner div{
+    font-size:16px;
+    font-weight:300;
+    color:rgba(235,236,254,1);
+    line-height:24px;
+    margin-top:37px;
+    cursor: pointer;
+    text-align: left;
+}
+.saas_Tes_jes_item:nth-child(2n){
+    margin-right:0;
+}
+.margin-60{
+    margin-bottom:60px;
+}
+.margin-120{
+    margin-bottom:120px;
+}
+.margin-14{
+    margin-bottom:14px;
+}
